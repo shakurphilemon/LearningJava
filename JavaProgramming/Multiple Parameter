@@ -1,1 +1,12 @@
+public class Main {
+    static void myMethod(String fName, int age){
+        System.out.println(fName + "is " + age);
+    }
 
+    public static void main(String[] args) {
+        myMethod("Philemon ", 26);
+        myMethod("Evans ", 29);
+        myMethod("Gabriel ", 45);
+        myMethod("Joseph ", 43);
+    }
+}
