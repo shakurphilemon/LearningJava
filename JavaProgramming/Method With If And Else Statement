@@ -1,0 +1,17 @@
+public class Main {
+    static void checkTime(int Time){
+        if (Time == 6){
+            System.out.println("Print Unto The System \"GOODMORNING\" ");
+        }else if (Time <= 11){
+            System.out.println("Print Unto The System \"GOODAFTERNOON\"");
+        }else if (Time > 12) {
+            System.out.println("Print Unto The System \"GOODEVENING\" ");
+        }
+    }
+
+    public static void main(String[] args) {
+        checkTime(98);
+    }
+
+
+}
