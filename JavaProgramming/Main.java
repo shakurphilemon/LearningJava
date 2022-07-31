@@ -1,14 +1,16 @@
 public class Main {
-    static void myMethod(){
-        System.out.println("This is my program called method");
 
+    // This is how i learnt method with parameters in Java//
+
+    static void myMethod(String fName){
+        System.out.println(fName + " Anaman Ndefo");
     }
 
     public static void main(String[] args) {
-        myMethod();
-        myMethod();
-        myMethod();
-        myMethod();
-
+        myMethod("Philemon");
+        myMethod("Joseph");
+        myMethod("Julia");
+        myMethod("Emma");
+        myMethod("Gabriel");
     }
 }
