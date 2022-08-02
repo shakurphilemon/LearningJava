@@ -1,0 +1,17 @@
+ublic class Main {
+    static  int myMethodOverLoadingInt(int w, int x){
+        return w * x;
+    }
+    static double myMethodOverLoadingDouble(double y, double z){
+        return y * z;
+    }
+
+    public static void main(String[] args) {
+        int resultInt = myMethodOverLoadingInt(9, 9);
+        double resultDouble = myMethodOverLoadingDouble(12.6, 3.78);
+        System.out.println("Int: " + resultInt);
+        System.out.println("int: " + resultDouble);
+    }
+
+
+}
