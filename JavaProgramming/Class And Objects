@@ -1,0 +1,16 @@
+public class Main {
+  int x = 23;
+  int y = 12;
+  int z = 10;
+  String words = "This is my Java Class And Object Code";
+
+    public static void main(String[] args) {
+        Main myObject = new Main();
+
+        System.out.println(myObject.x);
+        System.out.println(myObject.y);
+        System.out.println(myObject.z);
+        System.out.println(myObject.words);
+    }
+
+}
