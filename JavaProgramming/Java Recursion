@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        //Using Recursion To Add Numbers Up To 50
+
+        int totalNum = sum(50);
+        System.out.println(totalNum);
+    }
+    public static int sum(int x){
+        if (x > 0){
+            return x + sum(x - 1);
+        }else {
+            return 0;
+        }
+    }
+
+
+}
