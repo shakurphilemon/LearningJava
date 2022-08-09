@@ -1,0 +1,50 @@
+public class  Main {
+    //I created a Class Method using my Phone as an example
+
+    public static void iPhone () {
+        System.out.println("This is an Iphone 12");
+    }
+    public static void sizeOfPhone (double inches) {
+        System.out.println("The size of the Iphone is: " + inches + "inches");
+    }
+    public static void phoneShapeDesign () {
+        System.out.println("This Iphone should have flat-edged design with Aluminium edges");
+    }
+    public static void phoneMainCameras() {
+        System.out.println("This Iphone should have dual Cameras at the back and one in front ");
+    }
+    public static void firstCameraSize(int magaPixel){
+        System.out.println("This Iphone should have a camera angle of: " + magaPixel + "MP");
+    }
+    public static void secondCameraSize(double ultraWide) {
+        System.out.println("This Iphone should have a another camera called UltraWide with: " + ultraWide + "wide");
+    }
+    public static void thirdCamera(int frontalCamera ) {
+        System.out.println("This Iphone should have a front facing camera of: " + frontalCamera + "MP");
+    }
+    public static void touchLight (){
+        System.out.println("This Iphone should have a TouchLight which can also be used as FlashLight");
+    }
+    public  static void volumeButton(int maxVolume){
+        System.out.println("This Iphone should have two buttons \" UP and DOWN\" with maximum volume of " + maxVolume);
+
+    }
+    public static void chargingPort(){
+        System.out.println("This Iphone should have a charging Port");
+    }
+
+    public static void main(String[] args) {
+        Main philIphone = new Main();
+        philIphone.iPhone();
+        philIphone.sizeOfPhone(5.7);
+        philIphone.phoneShapeDesign();
+        philIphone.phoneMainCameras();
+        philIphone.firstCameraSize(12);
+        philIphone.secondCameraSize(2.4);
+        philIphone.thirdCamera(12);
+        philIphone.touchLight();
+        philIphone.volumeButton(100);
+        philIphone.chargingPort();
+    }
+
+}
