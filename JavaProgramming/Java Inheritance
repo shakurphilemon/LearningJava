@@ -1,0 +1,16 @@
+class Vehicle {
+    protected String vehicleBrand = "BMW";
+    public void honk(){
+        System.out.println("PIM !! PIM!!");
+    }
+}
+class Car extends Vehicle {
+    private String vehicleType = "X9 ";
+
+    public static void main(String[] args) {
+        Car COMPANY = new Car();
+        COMPANY.honk();
+
+        System.out.println(COMPANY.vehicleType + "" + COMPANY.vehicleBrand);
+    }
+}
