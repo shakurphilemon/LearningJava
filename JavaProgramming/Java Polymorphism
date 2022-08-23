@@ -1,0 +1,39 @@
+class Animals {
+    public void animalSounds(){
+        System.out.println("Print sound of these animals");
+    }
+}
+class Dogs extends Animals {
+    public void animalSounds(){
+        System.out.println("WOO !! WOO !!");
+    }
+}
+class Cat extends Animals {
+    public void animalSounds(){
+        System.out.println("MEOW !! MEOW !! ");
+    }
+
+}
+class Cow extends Animals {
+    public void animalSounds(){
+        System.out.println("MOOING !! MOOING !!");
+    }
+}
+class Ferret extends Animals {
+    public void animalSounds(){
+        System.out.println("KINK !! KINK!!");
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        Animals myDogsSound = new Animals();
+        Animals myCatSound = new Cat();
+        Animals myCowSound = new Cow();
+        Animals myFerretSound = new Ferret();
+
+        myDogsSound.animalSounds();
+        myCatSound.animalSounds();
+        myCowSound.animalSounds();
+        myFerretSound.animalSounds();
+    }
+}
