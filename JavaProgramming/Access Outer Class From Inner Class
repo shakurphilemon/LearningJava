@@ -1,0 +1,18 @@
+class OuterClass {
+    int myNum = 8748;
+
+    class InnerClass{
+        public int myMethod() {
+            return myNum;
+        }
+    }
+
+}
+
+class Main {
+    public static void main(String[] args) {
+        OuterClass myClass = new OuterClass();
+        OuterClass.InnerClass myClass2 = myClass.new InnerClass();
+        System.out.println(myClass2.myMethod());
+    }
+}
