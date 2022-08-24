@@ -1,0 +1,14 @@
+class OuterStaticClass {
+    int myStaticNum = 35;
+
+    static class  InnerStaticClass {
+        int myStaticNum2 = 78;
+    }
+
+}
+class Main {
+    public static void main(String[] args) {
+        OuterStaticClass.InnerStaticClass myClass = new OuterStaticClass.InnerStaticClass();
+        System.out.println(myClass.myStaticNum2);
+    }
+}
