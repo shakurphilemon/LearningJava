@@ -1,0 +1,31 @@
+nterface Animals{
+    public void animalSound();
+    public void sleep();
+}
+ class Dog implements Animals{
+    public void animalSound(){
+        System.out.println("Print: WOO !!  WOO ");
+    }
+    public void sleep(){
+        System.out.println("Z Z Z");
+    }
+ }
+ class Cat implements Animals{
+    public void animalSound(){
+        System.out.println("Print: Meow !! Meow");
+    }
+    public void sleep(){
+        System.out.println("Z Z Z");
+    }
+
+ }
+ class Main {
+     public static void main(String[] args) {
+         Dog myDog = new Dog();
+         Cat myCat = new Cat();
+         myCat.animalSound();
+         myDog.animalSound();
+         myCat.sleep();
+         myDog.sleep();
+     }
+ }
