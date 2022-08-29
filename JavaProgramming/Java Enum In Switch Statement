@@ -1,0 +1,25 @@
+public class Main {
+    enum weather {
+        HOT,
+        WARM,
+        COLD
+    }
+
+    public static void main(String[] args) {
+        weather checkWeather = weather.COLD;
+
+        switch (checkWeather){
+            case HOT:
+                System.out.println("Print the weather is sunny");
+                break;
+            case WARM:
+                System.out.println("Print the weather is Warm ");
+                break;
+            case COLD:
+                System.out.println("Print the weather is freezing");
+                break;
+
+        }
+    }
+}
+
