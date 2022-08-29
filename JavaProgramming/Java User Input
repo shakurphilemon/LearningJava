@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner myScanner = new Scanner(System.in);
+        System.out.println("Enter here:  ");
+
+        String myName = myScanner.nextLine();
+        int myAge     = myScanner.nextInt();
+        float mySalary = myScanner.nextFloat();
+        System.out.println("Print my Name: " + myName);
+        System.out.println("Print my Age: " + myAge);
+        System.out.println("Print my Salary: " + mySalary);
+    }
+}
