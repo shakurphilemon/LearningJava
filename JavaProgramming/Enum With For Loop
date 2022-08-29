@@ -1,0 +1,14 @@
+//This Code will loop through and print all the values in enum class 
+
+enum Weather{
+    HOT,
+    WARM,
+    COLD
+}
+   class Main {
+    public static void main(String[] args) {
+        for (Weather checkAllWeather: Weather.values()){
+            System.out.println(checkAllWeather);
+        }
+    }
+}
