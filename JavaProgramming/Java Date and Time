@@ -1,0 +1,10 @@
+// Using Java API to print current Date
+
+import java.time.LocalDate;
+
+public class Main {
+    public static void main(String[] args) {
+        LocalDate showDate = LocalDate.now();
+        System.out.println(showDate);
+    }
+}
