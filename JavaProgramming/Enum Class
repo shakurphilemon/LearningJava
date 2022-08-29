@@ -1,0 +1,14 @@
+// The enum class 
+
+public class Main {
+    enum myName{
+        PHILEMON,
+        ANAMAN,
+        NDEFO
+    }
+
+    public static void main(String[] args) {
+        myName outPutMyName = myName.PHILEMON;
+        System.out.println(outPutMyName);
+    }
+}
