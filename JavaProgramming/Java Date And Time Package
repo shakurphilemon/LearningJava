@@ -1,0 +1,9 @@
+//This code was to show Time and Date using Java Package 
+
+import java.time.LocalDateTime;
+public class Main {
+    public static void main(String[] args) {
+        LocalDateTime myDateAndTime = LocalDateTime.now();
+        System.out.println(myDateAndTime);
+    }
+}
