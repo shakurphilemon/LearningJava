@@ -1,0 +1,19 @@
+//This Code shows how we can use the Collections Package in sorting an ArrayList
+
+import java.util.ArrayList;
+import java.util.Collections; //This java package allows sorting in the Array
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<Character> myAlphabet = new ArrayList<Character>();
+        myAlphabet.add('F');
+        myAlphabet.add('A');
+        myAlphabet.add('C');
+        myAlphabet.add('B');
+        myAlphabet.add('D');
+        myAlphabet.add('E');
+        Collections.sort(myAlphabet);
+        for (Character myAlpha: myAlphabet )
+        System.out.println(myAlpha);
+    }
+}
