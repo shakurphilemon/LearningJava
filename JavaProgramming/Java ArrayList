@@ -1,0 +1,17 @@
+//This code was to show how ArrayList Package works 
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> Animals = new ArrayList<String>();
+        Animals.add("Dogs");
+        Animals.add("Cats");
+        Animals.add("Ferrets");
+        Animals.add("Horse");
+        Animals.add("Pigs");
+        Animals.add("Rabbits");
+        Animals.add("Lions");
+        System.out.println(Animals);
+    }
+}
