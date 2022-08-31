@@ -1,0 +1,15 @@
+//This code shows how we can print an empty Array using the clear Method in ArrayList
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> countries = new ArrayList<>();
+        countries.add("Germany");
+        countries.add("Ukraine");
+        countries.add("England");
+        countries.add("Switzerland");
+        countries.clear(); //This will print an empty array//
+        System.out.println(countries);
+    }
+}
