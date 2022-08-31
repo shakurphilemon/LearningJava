@@ -1,0 +1,15 @@
+//This Code is To show how we can use the Format Package to show how simple we can display time and Date
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class Main {
+    public static void main(String[] args) {
+        LocalDateTime myTimeAndDate = LocalDateTime.now();
+        System.out.println("Before Time: " + myTimeAndDate);
+        DateTimeFormatter myFormat = DateTimeFormatter.ofPattern("DD-MM-YY  HH.MM.SS");
+
+        String letFormatterFormat = myFormat.format(myTimeAndDate);
+        System.out.println("After Time: " + letFormatterFormat);
+    }
+}
