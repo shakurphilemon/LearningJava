@@ -1,0 +1,19 @@
+//This code is to show how we can print all elements in the ArrayList using the Size And Get Method
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> Fruits = new ArrayList<String>();
+
+        Fruits.add("Orange");
+        Fruits.add("Pineapple");
+        Fruits.add("Guava");
+        Fruits.add("Banana");
+        Fruits.add("Pawpaw");
+
+        for (int myFruit = 0; myFruit < Fruits.size(); myFruit++){
+            System.out.println(Fruits.get(myFruit));
+        }
+    }
+}
