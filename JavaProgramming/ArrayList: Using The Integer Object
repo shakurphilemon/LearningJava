@@ -1,0 +1,19 @@
+//This code show how we can use The Int(Integer) Datatype Which in this case is an Object to print Numbers in ArrayList//
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+
+        ArrayList<Integer> myEven = new ArrayList<Integer>();
+
+        myEven.add(8);
+        myEven.add(10);
+        myEven.add(16);
+        myEven.add(20);
+        myEven.add(28);
+        for (Integer evenNumbers: myEven){
+            System.out.println(evenNumbers);
+        }
+    }
+}
