@@ -1,0 +1,19 @@
+//This code shows how we can use the For Each Loop to Print every element in the ArrayList
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main (String args[]){
+        ArrayList<String> vegetables = new ArrayList<String>();
+
+        vegetables.add("Tomatoes");
+        vegetables.add("Onion");
+        vegetables.add("Pepper");
+        vegetables.add("Garlic");
+        vegetables.add("Carrot");
+        for (String myVeges: vegetables){
+            System.out.println(myVeges);
+        }
+
+    }
+}
