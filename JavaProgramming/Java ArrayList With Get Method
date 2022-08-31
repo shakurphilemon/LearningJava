@@ -1,0 +1,17 @@
+//This code is to Print The index 1 in the Animal ArrayList
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> Animal = new ArrayList<String>();
+        Animal.add("Lion");
+        Animal.add("Cats");
+        Animal.add("Pigs");
+        Animal.add("Horse");
+        Animal.add("Ferrets");
+        Animal.add("Dogs");
+        Animal.add("Rabbits");
+        System.out.println(Animal.get(1));
+    }
+}
