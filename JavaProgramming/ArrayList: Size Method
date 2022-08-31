@@ -1,0 +1,14 @@
+//This code is to print the size of the Array in the ArrayList
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> Animals = new ArrayList<String>();
+        Animals.add("Dogs");
+        Animals.add("Ferrets");
+        Animals.add("Tiger");
+        Animals.add("Sheep");
+        System.out.println(Animals.size()); //This print the size of the Array
+    }
+}
