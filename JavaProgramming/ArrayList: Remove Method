@@ -1,0 +1,16 @@
+//This code shows how we can remove an object from an ArrayList using the remove method
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> countries = new ArrayList<String>();
+        countries.add("France");
+        countries.add("Ghana");
+        countries.add("Germany");
+        countries.add("Egypt");
+        countries.add("USA");
+        countries.remove(1); //This method removes index 1 which is Ghana from the Array//
+        System.out.println(countries);
+    }
+}
