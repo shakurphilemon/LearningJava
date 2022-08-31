@@ -1,0 +1,17 @@
+//This code was to show how we can modify an element in ArrayList using Set Method
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> countries = new ArrayList<String>();
+        countries.add("Ghana");
+        countries.add("Ukraine");
+        countries.add("Germany");
+        countries.add("France");
+        countries.add("USA");
+        countries.add("Poland");
+        countries.set(0, "England");
+        System.out.println(countries);
+    }
+}
