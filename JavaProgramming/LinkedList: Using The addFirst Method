@@ -1,0 +1,17 @@
+//So this code shows how we can use the addFirst Method To add elements to the LinkedListed Class//
+
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<String> Birds = new LinkedList<String>();
+
+        Birds.add("Parrot");
+        Birds.add("Eagle");
+        Birds.add("Sparrow");
+        Birds.add("Duck");
+        Birds.add("Geese");
+        Birds.addFirst("Pelican");// This add a new object to the birds class and prints that object as First in the console//
+        System.out.println(Birds);
+    }
+}
