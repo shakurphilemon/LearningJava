@@ -1,0 +1,16 @@
+//This code showed how we can use the Linked Class which is also simmilar to the ArrayList to print elements//
+
+import java.util.LinkedList; // We import java Linked Package from Java API//
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<String> Birds = new LinkedList<String>();
+
+        Birds.add("Parrot");
+        Birds.add("Eagle");
+        Birds.add("Sparrow");
+        Birds.add("Duck");
+        Birds.add("Geese");
+        System.out.println(Birds);
+    }
+}
