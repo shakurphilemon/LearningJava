@@ -1,0 +1,16 @@
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<String> Birds = new LinkedList<String>();
+
+        Birds.add("Parrot");
+        Birds.add("Eagle");
+        Birds.add("Sparrow");
+        Birds.add("Duck");
+        Birds.add("Geese");
+        Birds.add("Pelican");
+        Birds.removeFirst(); //This removes the first object in the code which is Parrot//
+        System.out.println(Birds);
+    }
+}
