@@ -1,0 +1,18 @@
+//This shows how we can use the addLast Method to add objects
+
+
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<String> Birds = new LinkedList<String>();
+
+        Birds.add("Parrot");
+        Birds.add("Eagle");
+        Birds.add("Sparrow");
+        Birds.add("Duck");
+        Birds.add("Geese");
+        Birds.addLast("Pelican"); // This puts the object in the last of the code//
+        System.out.println(Birds);
+    }
+}
