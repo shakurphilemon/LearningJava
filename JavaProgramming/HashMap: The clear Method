@@ -1,0 +1,16 @@
+//This code shows how we can print an empty Array in HashMap by using the Clear Method//
+
+import java.util.HashMap;
+
+public class Main {
+    public static void main(String[] args) {
+        HashMap<String, String> countriesAndTheirCapital = new HashMap<>();
+
+        countriesAndTheirCapital.put("Germany", "Berlin");
+        countriesAndTheirCapital.put("France", "Paris");
+        countriesAndTheirCapital.put("Italy", "Rome");
+        countriesAndTheirCapital.put("Switzerland", "Bern");
+        countriesAndTheirCapital.clear(); //This prints an empty array//
+        System.out.println(countriesAndTheirCapital);
+    }
+}
