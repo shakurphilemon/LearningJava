@@ -1,0 +1,19 @@
+//This code is to demonstrate how HashMap works//
+
+import java.util.HashMap;
+
+public class Main {
+    public static void main(String[] args) {
+        HashMap<String, String> countriesAndTheirCapital = new HashMap<String, String>();
+
+        countriesAndTheirCapital.put("Germany", "Berlin");
+        countriesAndTheirCapital.put("France", "Paris");
+        countriesAndTheirCapital.put("Switzerland", "Bern");
+        countriesAndTheirCapital.put("USA", "Washington DC");
+        countriesAndTheirCapital.put("Holland", " Amsterdam");
+        countriesAndTheirCapital.put("Norway", "Oslo");
+        countriesAndTheirCapital.put("Austria", "Vienna");
+        countriesAndTheirCapital.put("Ghana", "Accra");
+        System.out.println(countriesAndTheirCapital);
+    }
+}
