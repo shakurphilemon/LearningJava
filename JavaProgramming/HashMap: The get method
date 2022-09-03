@@ -1,0 +1,18 @@
+//This code show how we can use the GET method to print values of keys into the console//
+
+import java.util.HashMap;
+
+public class Main {
+    public static void main(String[] args) {
+        HashMap<String, String> countriesAndTheirCapital = new HashMap<String, String>();
+
+        countriesAndTheirCapital.put("Germany", "Berlin");
+        countriesAndTheirCapital.put("USA", "Washington");
+        countriesAndTheirCapital.put("Poland", "Warsaw");
+        countriesAndTheirCapital.put("Switzerland", "Bern");
+        countriesAndTheirCapital.put("Belgium", "Brussels");
+        countriesAndTheirCapital.put("Jamaica", "Kingston");
+        System.out.println(countriesAndTheirCapital.get("Belgium")); //This print the key value of Belgium into the console which is Brussels//
+
+    }
+}
