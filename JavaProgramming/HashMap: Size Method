@@ -1,0 +1,15 @@
+//This code shows how we can print the size of the array using the Size method//
+
+import java.util.HashMap;
+
+public class Main {
+    public static void main(String[] args) {
+        HashMap<String, String> countriesAndTheirCapital = new HashMap<>();
+
+        countriesAndTheirCapital.put("Germany", "Berlin");
+        countriesAndTheirCapital.put("France", "Paris");
+        countriesAndTheirCapital.put("Italy", "Rome");
+        countriesAndTheirCapital.put("Switzerland", "Bern");
+        System.out.println(countriesAndTheirCapital.size()); //This print the size of the Array which is 4//
+    }
+}
