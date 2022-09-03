@@ -1,0 +1,21 @@
+//This code shows how we can loop throuht HashMap using the For each Loop//
+
+import java.util.HashMap;
+
+public class Main {
+    public static void main(String[] args) {
+        HashMap<String, Integer> namesAndAge = new HashMap<String, Integer>();
+
+        namesAndAge.put("Philemon", 45);
+        namesAndAge.put("Roland", 34);
+        namesAndAge.put("Bartholomew", 56);
+        namesAndAge.put("Benjamin", 19);
+        namesAndAge.put("Benson", 78);
+        namesAndAge.put("Julia",  30);
+        namesAndAge.put("Evans",  15);
+        namesAndAge.put("Adham", 44);
+        for (String myFamily : namesAndAge.keySet()){            // We use the KeySet method here to print values from the HashMap//
+            System.out.println(namesAndAge.get(myFamily));
+        }
+    }
+}
