@@ -1,0 +1,17 @@
+//This code shows how we can use the Remove method to remove values from the key Object//
+
+import java.util.HashMap;
+
+public class Main {
+    public static void main(String[] args) {
+
+        HashMap<String, Integer> namesAndAge = new HashMap<>();
+        namesAndAge.put("Philemon ", 45);
+        namesAndAge.put("Roland ", 19);
+        namesAndAge.put("Bartholomew ", 67 );
+        namesAndAge.put("Sarah ", 45 );
+        namesAndAge.put("Evans ", 43 );
+        namesAndAge.remove("Sarah"); //This removes Sarah which is the key and 45 which is the value from the object//
+        System.out.println(namesAndAge);
+    }
+}
