@@ -1,0 +1,24 @@
+//Hashset is similar to HashMap but this class prints unique items
+
+
+import java.util.HashSet;
+
+public class Main {
+    public static void main(String[] args) {
+    
+    //In this code we could see that Germany was two but than we will get one printed unto the console cause Hashset prints unique items//
+
+
+        HashSet<String> countries = new HashSet<>();
+
+        countries.add("France");
+        countries.add("United Kingdom");
+        countries.add("Spain");
+        countries.add("USA");
+        countries.add("Germany");
+        countries.add("Dubai");
+        countries.add("Germany");
+        System.out.println(countries);
+
+    }
+}
