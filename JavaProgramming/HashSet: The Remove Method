@@ -1,0 +1,18 @@
+//This code shows how the Remove items from in the HashSet Class//
+
+import java.util.HashSet;
+
+public class Main {
+    public static void main(String[] args) {
+
+        HashSet<String> Vegetables = new HashSet<String>();
+        Vegetables.add("Tomatoes");
+        Vegetables.add("Cucumber");
+        Vegetables.add("Pepper");
+        Vegetables.add("Green Pepper");
+        Vegetables.add("Zucchini");
+        Vegetables.add("Cabbage");
+        Vegetables.remove("Tomatoes"); //This will remove Tomatoes from the items created//
+        System.out.println(Vegetables);
+    }
+}
