@@ -1,0 +1,18 @@
+//This code shows how we can use the contains Method to showcase if an item exist in our code//
+
+import java.util.HashSet;
+
+public class Main {
+    public static void main(String[] args) {
+
+        HashSet<String> Names = new HashSet<>();
+
+        Names.add("Philemon");
+        Names.add("Evans");
+        Names.add("Adham");
+        Names.add("Roland");
+        Names.add("Bartholomew");
+        Names.add("Julia");
+        System.out.println(Names.contains("John")); //This will print false beacuse we don't have John among the names created//
+    }
+}
