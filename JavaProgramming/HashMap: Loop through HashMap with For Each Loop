@@ -1,0 +1,21 @@
+//This code uses the For Each Loop with the Keyset method And the get Method to Print Both Key And Values unto the console//
+
+import java.util.HashMap;
+
+public class Main {
+    public static void main(String[] args) {
+        HashMap<String, String> Countries = new HashMap<>();
+
+        Countries.put("USA", "Washington");
+        Countries.put("Germany", "Berlin");
+        Countries.put("France", "Paris");
+        Countries.put("Switzerland", "Bern");
+        Countries.put("Ghana", "Accra");
+        Countries.put("Belgium", "Brussels");
+        Countries.put("Spain", "Madrid");
+        for (String countryAndCapital : Countries.keySet()){
+            System.out.println("Names: " + countryAndCapital + " Cities: " + Countries.get(countryAndCapital) );
+        }
+    }
+}
+
