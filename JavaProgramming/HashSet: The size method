@@ -1,0 +1,17 @@
+//With the size method we can found the size of the HashSet Method Created And This code shows how//
+
+import java.util.HashSet;
+
+public class Main {
+    public static void main(String[] args) {
+
+        HashSet<String> bigCities = new HashSet<>();
+
+        bigCities.add("Paris");
+        bigCities.add("Berlin");
+        bigCities.add("New York");
+        bigCities.add("Washington DC");
+        bigCities.add("Brussels");
+        System.out.println(bigCities.size()); //By using the Hashset method here we will found the size of the HashSet which is 5//
+    }
+}
