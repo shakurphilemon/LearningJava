@@ -1,0 +1,19 @@
+//This code shows how we can use the clear Method to print an empty HashSet//
+
+import java.util.HashSet;
+
+public class Main {
+    public static void main(String[] args) {
+
+        HashSet<String> NAMES = new HashSet<>();
+
+        NAMES.add("Philemon");
+        NAMES.add("Evans");
+        NAMES.add("Roland");
+        NAMES.add("Emmanuel");
+        NAMES.add("Julia");
+        NAMES.clear(); //This will make the HashSet empty//
+
+        System.out.println(NAMES);
+    }
+}
