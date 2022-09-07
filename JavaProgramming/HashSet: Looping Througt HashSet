@@ -1,0 +1,20 @@
+//This code will print numbers from 1 to 30 indicating the ones that are found in the object and the ones that are not//
+
+import java.util.HashSet;
+
+public class Main {
+    public static void main(String[] args) {
+
+        HashSet<Integer> Age = new HashSet<>();
+
+        Age.add(20);
+        Age.add(29);
+        Age.add(13);
+        Age.add(12);
+        for (int myAge = 1; myAge <= 30; myAge++){
+            if (Age.contains(myAge)){
+                System.out.println("Print my age found: " + myAge);
+                } else {
+                System.out.println("This age is not Found: " + myAge);
+            }
+        }
