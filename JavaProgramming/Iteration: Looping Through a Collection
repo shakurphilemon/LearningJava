@@ -1,0 +1,23 @@
+//This code shows how we can loop through  Java Iteration by using the hasNext Method and the Next Method in our code and also use the while loop//
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Main {
+    public static void main(String[] args) {
+
+        ArrayList<String> Universities = new ArrayList<>();
+
+        Universities.add("The National Technical University Of Ukraine");
+        Universities.add("Cambridge University");
+        Universities.add("Oxford University");
+        Universities.add("Harvard University");
+        Universities.add("Standford University");
+        Iterator<String> Names = Universities.iterator();
+
+        while (Names.hasNext()){
+            System.out.println(Names.next());
+        }
+    }
+}
+
