@@ -1,0 +1,21 @@
+//This code shows how we can use the Next Method to Print the first value of a set//
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Main {
+    public static void main(String[] args) {
+
+        ArrayList<String> Names = new ArrayList<String>();
+
+        Names.add("Philemon");
+        Names.add("Joseph");
+        Names.add("Louis");
+        Names.add("Rebecca");
+        Names.add("Benjamin");
+        Names.add("Peter");
+
+        Iterator<String> myFamily = Names.iterator();
+        System.out.println(myFamily.next());
+    }
+}
