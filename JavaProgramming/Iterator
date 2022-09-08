@@ -1,0 +1,23 @@
+//Iterator package also serves as for loop //
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Main {
+    public static void main(String[] args) {
+
+        ArrayList<String> Universities = new ArrayList<String>();
+
+        Universities.add("National Technical University Of Ukraine");
+        Universities.add("Cambridge University");
+        Universities.add("Oxford University");
+        Universities.add("Standford University");
+        Universities.add("University Of Toronto");
+        Universities.add("Harvard University");
+
+        Iterator<String> Best = Universities.iterator(); 
+
+        System.out.println(Universities);
+
+    }
+}
