@@ -1,0 +1,30 @@
+//In this code we used the Iterator to Print out only the Negative Values out of the Collection Created//
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Main {
+    public static void main(String[] args) {
+
+        ArrayList<Integer> NegativeNum = new ArrayList<>();
+
+        NegativeNum.add(-56);
+        NegativeNum.add(8);
+        NegativeNum.add(-34);
+        NegativeNum.add(90);
+        NegativeNum.add(-32);
+        NegativeNum.add(10);
+        NegativeNum.add(16);
+
+        Iterator<Integer> positiveNum = NegativeNum.iterator();
+
+        while (positiveNum.hasNext()){
+
+            Integer onlyNegativeNum = positiveNum.next();
+            if (onlyNegativeNum > 0){
+                positiveNum.remove();
+            }
+        }
+        System.out.println(NegativeNum);
+    }
+}
