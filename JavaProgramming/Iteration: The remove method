@@ -1,0 +1,29 @@
+//In the code we used the iterator to remove negative numbers from the value of list created//
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Main {
+    public static void main(String[] args) {
+
+        ArrayList<Integer> positiveNum = new ArrayList<>();
+
+        positiveNum.add(23);
+        positiveNum.add(45);
+        positiveNum.add(90);
+        positiveNum.add(-13);
+        positiveNum.add(-34);
+        positiveNum.add(12);
+        positiveNum.add(23);
+
+        Iterator<Integer> negativeNum = positiveNum.iterator();
+
+        while (negativeNum.hasNext()){
+            Integer Numbers = negativeNum.next();
+            if (Numbers <= 0){
+                negativeNum.remove();
+            }
+        }
+        System.out.println(positiveNum);
+    }
+}
