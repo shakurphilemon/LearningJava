@@ -1,0 +1,10 @@
+//this code shows how we can use the toString method to change from integer to string//
+
+public class Main {
+    public static void main(String[] args) {
+
+        Integer myInt = 45;
+        String myString = myInt.toString();
+        System.out.println(myString);
+    }
+}
