@@ -1,0 +1,19 @@
+//This Code shows how we can also use the Wrapper class in ArrayList Where primitive types can't be use//
+
+public class Main {
+    public static void main(String[] args) {
+
+        Character myChar = 'P';
+        Integer myInt = 34;
+        Double myDouble = 23.4;
+        String myString = "All this are wrapper class";
+        System.out.println(myChar);
+        System.out.println(myDouble);
+        System.out.println(myInt);
+        System.out.println(myString);
+    }
+}
+
+
+
+
