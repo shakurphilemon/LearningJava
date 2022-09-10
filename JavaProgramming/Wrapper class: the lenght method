@@ -1,0 +1,11 @@
+//The lenght method to check lenght//
+
+public class Main {
+    public static void main(String[] args) {
+
+        Integer myInt = 458999;
+        String myString = myInt.toString();
+        System.out.println(myString.length());
+    }
+}
+
