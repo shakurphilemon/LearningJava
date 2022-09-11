@@ -1,0 +1,15 @@
+//With the Try and catch statement we can still execute code that has error in them//
+
+public class Main {
+   public static void main (String[] args){
+       try {
+           int[] primeNumbers = {2, 3, 5, 7, 11, 13};
+           System.out.println(primeNumbers[6]); //This will generate an error cause we don't have 6 as a prime number in the array//
+
+       } catch (Exception e) {
+           System.out.println("There is an error in the code ");
+       }
+
+//But with the Try and Catch statement used in the code we can still execute the code //
+   }
+}
