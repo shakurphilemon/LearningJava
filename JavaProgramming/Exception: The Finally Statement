@@ -1,0 +1,22 @@
+//The finally statement makes execute your code after the Try and catch statement//
+
+public class Main {
+    public static void main (String[] args){
+        try {
+        //For example the numbers in the array in less than 8 and so this code will generate an error //
+            int[] primeNumbers = {2, 3, 5, 7, 11, 13, 17};
+            System.out.println(primeNumbers[8]);
+            
+
+        } catch (Exception e) {
+            System.out.println("There is an error in this code ");
+        } finally {
+        
+        //In the second block of code the index of the number is up to 4 which
+        11 and is also a prime number so the code will execute correctly with 11 as the answer//
+            
+            int[] primeNumbers = {2, 3, 5, 7, 11, 13, 17};
+            System.out.println(primeNumbers[4]);
+        }
+    }
+}
