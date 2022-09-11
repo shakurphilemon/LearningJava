@@ -1,0 +1,16 @@
+//In this code we used the Throw New Statement to check if the age was greater than 18//
+
+public class Main {
+   static void securityCheck(int Age){
+       if (Age < 18){
+           throw new SecurityException("Access Not Granted ");
+       } else {
+           System.out.println("Access Granted ");
+       }
+   }
+   public static void main (String[] args){
+       securityCheck(12); // Now the age we got here was less than 18 so this code will genrate an error //
+   }
+
+
+}
