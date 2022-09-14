@@ -1,0 +1,19 @@
+//This code shows how we search for the letters in a block of code using the Pattern and Match Class Package//
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Pattern myPattern = Pattern.compile("Philemon ", Pattern.CASE_INSENSITIVE);
+        Matcher myMatch = myPattern.matcher("Philemon is a programmer");
+        boolean Search = myMatch.find();
+
+        if (Search) {
+            System.out.println("Yes it is true Philemon is a Programmer ");
+        } else {
+            System.out.println("No it is not true Philemon is not a programmer ");
+        }
+    }
+}
