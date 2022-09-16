@@ -1,0 +1,11 @@
+//This is one way to create Thread in Jave and is Called the Extend where
+we use the extend along with thread and override it with the run method //
+
+public class Main extends Thread{
+    public void run () {
+        System.out.println("This is Philemon Laptop");
+
+
+    }
+}
+
