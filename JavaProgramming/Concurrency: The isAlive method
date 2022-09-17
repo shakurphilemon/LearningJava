@@ -1,0 +1,22 @@
+//The isAlive Method is use to predict accurate code //
+
+public class Main extends Thread {
+    public static char Alphabet = 'A';
+
+    public static void main(String[] args) {
+        Main englishAlpha = new Main();
+        englishAlpha.start();
+
+
+        while (englishAlpha.isAlive()){
+            System.out.println("This will start the english alphabet... ");
+        }
+        System.out.println(Alphabet);
+        Alphabet++;
+        System.out.println(Alphabet);
+
+    }
+    public void run(){
+        Alphabet++;
+    }
+}
