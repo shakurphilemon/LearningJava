@@ -1,0 +1,10 @@
+//We can also create Java Thread by Using the implement Syntex//
+
+//Now this code will generate an error because is not fully completed//
+
+
+public class Main implements Runnable {
+    public void run(){
+        System.out.println("Phil is a software engineer ");
+    }
+}
