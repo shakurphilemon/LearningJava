@@ -1,0 +1,21 @@
+//This is how we can excute Extend Class In Java //
+
+//In my previous code the codes for the extend syntex wouldn't work because the code wasn't any class method to start the code //
+
+public class Main extends Thread{
+    public static void main(String[] args) {
+
+        Main myThread = new Main();
+        myThread.start();   //We created an instance class to help excute the code//
+        System.out.println("Philemon is an Engineer ");
+
+    }
+    public void run(){
+        int age = 12;
+        System.out.println("And he is " + age + " years old");
+    }
+}
+
+
+
+
