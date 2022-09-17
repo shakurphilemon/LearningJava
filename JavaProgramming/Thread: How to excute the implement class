@@ -1,0 +1,14 @@
+//This code shows how we can excute the implement class in Java //
+
+public class Main implements Runnable{
+    public static void main(String[] args) {
+
+        Main myThread = new Main();
+        Thread Phil = new Thread(myThread);
+        Phil.start();
+        System.out.println("Programming is fun ");
+    }
+    public void run(){
+        System.out.println("But Java is Super Fun ");
+    }
+}
