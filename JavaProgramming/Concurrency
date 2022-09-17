@@ -1,0 +1,17 @@
+//Concurrency is when threads are being run and the variables and values are unpredictable//
+
+public class Main extends Thread {
+    public static int Age = 45;
+
+    public static void main(String[] args) {
+        Main nextAge = new Main();
+        nextAge.start();
+        System.out.println("This is my new age " + Age);
+        Age ++;
+        System.out.println("This will be my age next year " + Age);
+
+    }
+    public void run(){
+        Age++;
+    }
+}
