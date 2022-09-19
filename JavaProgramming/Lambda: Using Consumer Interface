@@ -1,0 +1,20 @@
+//This code shows how we can use the Consumer interface to store variables in Lambda//
+
+import java.util.ArrayList;
+import java.util.function.Consumer;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> Names = new ArrayList<>();
+        Names.add("Philemon");
+        Names.add("Julia");
+        Names.add("Sarah");
+        Names.add("Rebecca");
+        Names.add("Joseph");
+        Consumer<String> myFriends = (n) -> {
+            System.out.println(n);
+        };
+        Names.forEach(myFriends);
+
+    }
+}
