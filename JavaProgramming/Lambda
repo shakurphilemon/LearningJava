@@ -1,0 +1,19 @@
+//This is code in Java that shows how Lambda works//
+//Lambda expression was introduced in Java 8, Lambda works like method but is a 
+simple way of introducing a block of code to return a value without the use of a Name //
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+
+        ArrayList<String> names = new ArrayList<String>();
+        names.add("Philemon ");
+        names.add("Benson");
+        names.add("Rebecca");
+        names.add("Peter");
+        names.forEach((n) -> {
+            System.out.println(n);
+        });
+    }
+}
