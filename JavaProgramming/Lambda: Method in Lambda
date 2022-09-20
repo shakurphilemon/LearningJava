@@ -1,0 +1,20 @@
+//This code shows how we can create method in lambda expression using a Parameter//
+
+interface Countries {
+    String run(String City);
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Countries capitalCity = (c) -> c + "?";
+        Countries Answer = (c) -> c + "Berlin";
+        bigCity("What is the capital city of Germany",  capitalCity);
+        bigCity("The capital city of Germany is ", Answer);
+    }
+    public static void bigCity(String City, Countries format ){
+        String Formatted = format.run(City);
+        System.out.println(Formatted);
+    }
+
+}
