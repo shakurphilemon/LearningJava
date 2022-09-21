@@ -1,0 +1,19 @@
+//In this code we showed how we can write to files using the FileWriter Package in Java//
+//In the code we wrote Philemon is a Java Programmer in the file Philemon.txt file //
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Main {
+    public static void main(String[] args) {
+        try {
+            FileWriter TextWriter = new FileWriter("Philemon.txt");
+            TextWriter.write("Philemon is a Java Programmer ");
+            TextWriter.close();
+            System.out.println("Successfully wrote text to Philemon files ");
+
+        } catch (IOException e) {
+            System.out.println("There is error in the code ");
+        }
+    }
+}
