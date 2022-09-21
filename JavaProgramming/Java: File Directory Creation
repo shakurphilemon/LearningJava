@@ -1,0 +1,19 @@
+//This code shows how we can use directory in java to create a file in a specific folder//
+
+public class Main {
+    public static void main(String[] args) {
+        try{
+            File createFile = new File("D:\\Javafiles\\Philemon.txt");
+            if (createFile.createNewFile()) {
+                System.out.println("File Created in Javafiles: " + createFile.getName());
+                System.out.println("Absolute creation " + createFile.getAbsolutePath());
+            } else {
+                System.out.println("This file already exist ");
+
+            }
+        } catch (IOException e){
+            System.out.println("This file can't be created there is an error ");
+        }
+    }
+
+}
