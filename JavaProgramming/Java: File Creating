@@ -1,0 +1,22 @@
+// This code demostrates how we can create files in Java //
+//In the code we used the createNewFile Method to create a file in my name as Philemon.txt// 
+
+import java.io.File;
+import java.io.IOException;
+
+public class Main {
+    public static void main(String[] args) {
+
+        try {
+            File createFile = new File("Philemon.txt");
+            if (createFile.createNewFile()){
+                System.out.println("File created: " + createFile.getName());
+            } else {
+                System.out.println("This file already exist ");
+            }
+        } catch (IOException e){
+            System.out.println("File can't be created sorry there is an error ");
+            e.printStackTrace();
+        }
+    }
+}
