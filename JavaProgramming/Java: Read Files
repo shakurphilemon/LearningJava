@@ -1,0 +1,20 @@
+//This code shows how we can read files using the file Java package and the methods such getName in java //
+
+import java.io.File;
+
+public class Main {
+    public static void main(String[] args) {
+
+        File myFile = new File("Philemon.txt ");
+        if (myFile.exists()){
+            System.out.println("File Name: " + myFile.getName());
+            System.out.println("File Path: " + myFile.getAbsolutePath());
+            System.out.println("File Writer: " + myFile.canWrite());
+            System.out.println("File Read: " + myFile.canRead());
+            System.out.println("File Size: " + myFile.getTotalSpace());
+            System.out.println("Numbers in File:  " + myFile.length());
+        } else {
+            System.out.println("This file doesn't exist ");
+        }
+    }
+}
