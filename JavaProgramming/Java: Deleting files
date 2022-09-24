@@ -1,0 +1,18 @@
+//This code shows how we can delete files in a Java//
+
+import java.io.File;
+
+public class Main {
+    public static void main(String[] args) {
+
+        File myDeleteFile = new File("Philemon.txt");
+
+        if (myDeleteFile.delete()){
+            System.out.println("Delete this file: " + myDeleteFile.getName());
+        } else {
+            System.out.println("This File can:   ");
+        }
+
+    }
+}
+
