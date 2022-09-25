@@ -1,0 +1,22 @@
+//In this code we performed two operation by adding two numbers with the scanner class //
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        int a, b, c, sum;
+        Scanner Calculator = new Scanner(System.in);
+        System.out.println("Type your number here ...");
+        a = Calculator.nextInt();
+
+        System.out.println("Type your number here ");
+        b = Calculator.nextInt();
+
+        System.out.println("Type your number here ");
+        c = Calculator.nextInt();
+
+        sum = a + b * c;
+        System.out.println("Total Calculation: " + sum);
+    }
+}
